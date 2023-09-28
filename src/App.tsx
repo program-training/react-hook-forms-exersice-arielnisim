@@ -1,13 +1,12 @@
-import './App.css'
-import RegularForm from './components/RegularForm'
+import "./App.css";
+import Form from "./components/Form";
 
-function App() {
-
+const App = () => {
   return (
     <>
-    <RegularForm />
+      <Form />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
